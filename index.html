@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Heinrich Himmler Auto Clicker</title>
+    <link rel="stylesheet" href="styles.css">
+	<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+<img src="https://i.imgur.com/qstrRFr.png" alt="Gear" class="gear gear1">
+<img src="https://i.imgur.com/qstrRFr.png" alt="Gear" class="gear gear2">
+    <div id="game">
+        <h1>Heinrich Himmler Auto Clicker</h1>
+        
+        <div id="stats">
+            <p>Kill Count: <span id="quarantined">0</span></p>
+            <p>Taxes: $<span id="taxes">0</span></p>
+        </div>
+        
+        <button id="quarantineButton">Quarantine Person</button>
+        
+        <div id="upgrades">
+            <h2>Upgrades</h2>
+            <div id="upgradesList"></div>
+        </div>
+        
+        <div id="achievements">
+            <h2>Achievements</h2>
+            <ul id="achievementsList"></ul>
+        </div>
+        
+        <div id="endGame" style="display: none;">
+            <h2>Congratulations!</h2>
+            <p>You've killed 13 million people, and quite efficiently, too!</p>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
